@@ -34,3 +34,4 @@ Ce projet est sous licence **MIT** - voir le fichier [LICENSE](LICENSE) pour plu
 
 ## 👥 Contributeurs
 - [Silentdawg](https://github.com/Silentdawg)
+- [LulDrako](https://github.com/LulDrako)
