@@ -34,6 +34,3 @@ Ce projet est sous licence **MIT** - voir le fichier [LICENSE](LICENSE) pour plu
 
 ## 👥 Contributeurs
 - [Silentdawg](https://github.com/Silentdawg)
-
-## 📩 Contact
-Pour toute question ou suggestion, n'hésite pas à ouvrir une **issue** ou à me contacter ! 🚀
