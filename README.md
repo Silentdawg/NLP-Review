@@ -18,7 +18,7 @@ NLPReview est un outil d'analyse des feedbacks employés basé sur le **Traiteme
 ## 🚀 Installation
 1. **Cloner le dépôt**
 ```bash
- git clone https://github.com/ton_github/NLPReview.git
+ git clone https://github.com/Silentdawg/NLP-Review.git
 ```
 2. **Installer les dépendances**
 ```bash
