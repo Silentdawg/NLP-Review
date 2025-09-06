@@ -1,36 +1,81 @@
 # NLPReview - Analyse des Feedbacks Employés
 
-## 📌 Description
-NLPReview est un outil d'analyse des feedbacks employés basé sur le **Traitement du Langage Naturel (NLP)** et une interface utilisateur interactive.
+AI Text Analysis Tool
 
-## 🛠 Fonctionnalités
-- 📊 **Analyse des commentaires** : Extraction des feedbacks et évaluation des sentiments (**positifs, négatifs, neutres**).
-- 🌍 **Détection automatique de la langue** (français/anglais).
-- 🔍 **Classification des réponses** : Identification des **forces et faiblesses** à partir des avis.
-- 📈 **Visualisation des tendances** : Génération de graphiques interactifs.
-- 🖥 **Interface utilisateur intuitive** avec **PySide6 (Qt)** permettant une recherche dynamique des employés.
+An interactive desktop application for text analysis and visualization, built with PySide6 and Transformers.
+It allows you to upload text files, extract keywords, generate word clouds, visualize sentiment, and export reports in PDF.
 
-## 🏗 Technologies utilisées
-- **Python** (Pandas, Matplotlib, spaCy, TextBlob, NLTK, langdetect)
-- **PySide6 (Qt)** pour l'interface utilisateur
-- **Excel** pour le stockage des données
+✨ Features
 
-## 🚀 Installation
-1. **Cloner le dépôt**
-```bash
- git clone https://github.com/Silentdawg/NLP-Review.git
-```
-2. **Installer les dépendances**
-```bash
- pip install -r requirements.txt
-```
-3. **Lancer l'application**
-```bash
- python EY.interface.py
-```
+📂 Import text files for analysis
 
-## 📜 Licence
-Ce projet est sous licence **MIT** - voir le fichier [LICENSE](LICENSE) pour plus de détails.
+🔑 Keyword extraction using KeyBERT
+
+💬 Sentiment analysis with Transformers (Hugging Face models)
+
+☁️ Generate word clouds
+
+📊 Data visualization (charts, graphs, reports)
+
+🖥️ GUI built with PySide6
+
+📑 Export results to PDF reports
+
+🛠️ Installation
+
+Clone the repository:
+
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+
+Create a virtual environment (recommended):
+
+python -m venv venv
+source venv/bin/activate   # on Linux/Mac
+venv\Scripts\activate      # on Windows
+
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+🚀 Usage
+
+Run the application:
+
+python main.py
+
+
+The GUI will open, and you can start uploading text files for analysis.
+
+📂 Project Structure
+├── main.py              # Entry point for the app (PySide6 GUI)
+├── requirements.txt     # Python dependencies
+├── README.md            # Project documentation
+├── /data                # (Optional) store input text files
+├── /reports             # Generated PDF reports
+└── /visuals             # Word clouds & plots
+
+🧠 Technologies Used
+
+PySide6 → GUI
+
+Transformers (Hugging Face) → NLP & sentiment analysis
+
+KeyBERT + Sentence-Transformers → Keyword extraction
+
+Matplotlib & Seaborn → Visualizations
+
+WordCloud → Word cloud generation
+
+FPDF → PDF report export
+
+Pandas & NumPy → Data handling
+
+📜 License
+
+This project is licensed under the MIT License – free to use and modify.
 
 ## 👥 Contributeurs
 - [Silentdawg](https://github.com/Silentdawg)
