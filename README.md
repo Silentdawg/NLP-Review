@@ -1,30 +1,72 @@
 NLPReview - Analyse des Feedbacks Employés
-##📌 Description
-NLPReview est un outil d'analyse des feedbacks employés basé sur le Traitement du Langage Naturel (NLP) et une interface utilisateur interactive.
+## 📌 Description  
+**AI Text Analysis Tool** est une application interactive d’analyse et de visualisation de textes, construite avec **PySide6** et les modèles **Transformers**.  
+Elle permet d’importer des fichiers textes, d’extraire des mots-clés, d’analyser le sentiment, de générer des nuages de mots et d’exporter des rapports en PDF.  
 
-🛠 Fonctionnalités
-📊 Analyse des commentaires : Extraction des feedbacks et évaluation des sentiments (positifs, négatifs, neutres).
-🌍 Détection automatique de la langue (français/anglais).
-🔍 Classification des réponses : Identification des forces et faiblesses à partir des avis.
-📈 Visualisation des tendances : Génération de graphiques interactifs.
-🖥 Interface utilisateur intuitive avec PySide6 (Qt) permettant une recherche dynamique des employés.
-🏗 Technologies utilisées
-Python (Pandas, Matplotlib, spaCy, TextBlob, NLTK, langdetect)
-PySide6 (Qt) pour l'interface utilisateur
-Excel pour le stockage des données
-🚀 Installation
-Cloner le dépôt
- git clone https://github.com/Silentdawg/NLP-Review.git
-Installer les dépendances
- pip install -r requirements.txt
-Lancer l'application
- python EY.interface.py
- pip install -r requirements.txt
+---
 
-##📜 Licence
-Ce projet est sous licence MIT - voir le fichier LICENSE pour plus de détails.
+## 🛠 Fonctionnalités  
+- 📂 **Import de fichiers texte** pour l’analyse  
+- 🔑 **Extraction de mots-clés** avec **KeyBERT**  
+- 💬 **Analyse de sentiment** via les modèles **Transformers** (Hugging Face)  
+- ☁️ **Nuage de mots** interactif  
+- 📊 **Visualisation des résultats** (graphiques, tendances, rapports)  
+- 🖥 **Interface utilisateur intuitive** avec **PySide6 (Qt)**  
+- 📑 **Export en PDF** des résultats d’analyse  
 
-This project is licensed under the MIT License – free to use and modify.
+---
+
+## 🏗 Technologies utilisées  
+- **Python** : Pandas, NumPy, Matplotlib, Seaborn, WordCloud, scikit-learn  
+- **NLP** : Transformers (Hugging Face), Torch, KeyBERT, Sentence-Transformers  
+- **Interface utilisateur** : PySide6 (Qt)  
+- **Rapports** : FPDF pour l’export en PDF  
+
+---
+
+## 🚀 Installation  
+
+1. **Cloner le dépôt**  
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
+
+2. **Créer un environnement virtuel (recommandé)**  
+```bash
+python -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
+```
+
+3. **Installer les dépendances**  
+```bash
+pip install -r requirements.txt
+```
+
+4. **Lancer l’application**  
+```bash
+python main.py
+```
+
+---
+
+## 📂 Structure du projet  
+
+```
+├── main.py              # Point d’entrée de l’application (GUI PySide6)
+├── requirements.txt     # Dépendances Python
+├── README.md            # Documentation du projet
+├── /data                # (Optionnel) Fichiers textes d’entrée
+├── /reports             # Rapports PDF générés
+├── /visuals             # Graphiques et nuages de mots
+└── /assets              # (Optionnel) ressources diverses
+```
+
+---
+
+## 📜 Licence  
+Ce projet est sous licence **MIT** – voir le fichier [LICENSE](LICENSE) pour plus de détails.  
 
 ## 👥 Contributeurs
 - [Silentdawg](https://github.com/Silentdawg)
