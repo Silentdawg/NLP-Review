@@ -19,6 +19,8 @@ Installer les dépendances
  pip install -r requirements.txt
 Lancer l'application
  python EY.interface.py
+ pip install -r requirements.txt
+
 ##📜 Licence
 Ce projet est sous licence MIT - voir le fichier LICENSE pour plus de détails.
 
