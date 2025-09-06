@@ -1,5 +1,5 @@
 NLPReview - Analyse des Feedbacks Employés
-📌 Description
+##📌 Description
 NLPReview est un outil d'analyse des feedbacks employés basé sur le Traitement du Langage Naturel (NLP) et une interface utilisateur interactive.
 
 🛠 Fonctionnalités
@@ -19,7 +19,7 @@ Installer les dépendances
  pip install -r requirements.txt
 Lancer l'application
  python EY.interface.py
-📜 Licence
+##📜 Licence
 Ce projet est sous licence MIT - voir le fichier LICENSE pour plus de détails.
 
 This project is licensed under the MIT License – free to use and modify.
