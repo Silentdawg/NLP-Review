@@ -1,73 +1,75 @@
-NLPReview - Analyse des Feedbacks Employés
+# AI Text Analysis Tool  
+
+An interactive desktop application for text analysis and visualization, built with **PySide6** and **Transformers**.  
+It allows you to upload text files, extract keywords, perform sentiment analysis, generate word clouds, and export PDF reports.  
+
+---
+
 ## 📌 Description  
-**AI Text Analysis Tool** est une application interactive d’analyse et de visualisation de textes, construite avec **PySide6** et les modèles **Transformers**.  
-Elle permet d’importer des fichiers textes, d’extraire des mots-clés, d’analyser le sentiment, de générer des nuages de mots et d’exporter des rapports en PDF.  
+**AI Text Analysis Tool** is designed to simplify text analytics through an intuitive interface.  
+It integrates modern **NLP models** and visualization libraries to deliver insights from employee feedback, reviews, or any large set of textual data.  
 
 ---
 
-## 🛠 Fonctionnalités  
-- 📂 **Import de fichiers texte** pour l’analyse  
-- 🔑 **Extraction de mots-clés** avec **KeyBERT**  
-- 💬 **Analyse de sentiment** via les modèles **Transformers** (Hugging Face)  
-- ☁️ **Nuage de mots** interactif  
-- 📊 **Visualisation des résultats** (graphiques, tendances, rapports)  
-- 🖥 **Interface utilisateur intuitive** avec **PySide6 (Qt)**  
-- 📑 **Export en PDF** des résultats d’analyse  
+## 🛠 Features  
+- 📂 **Import text files** for analysis  
+- 🔑 **Keyword extraction** with **KeyBERT**  
+- 💬 **Sentiment analysis** using **Transformers** (Hugging Face models)  
+- ☁️ **Word cloud generation** for quick insights  
+- 📊 **Data visualization** (graphs, charts, summaries)  
+- 🖥 **User-friendly GUI** built with **PySide6 (Qt)**  
+- 📑 **PDF export** of results and reports  
 
 ---
 
-## 🏗 Technologies utilisées  
-- **Python** : Pandas, NumPy, Matplotlib, Seaborn, WordCloud, scikit-learn  
-- **NLP** : Transformers (Hugging Face), Torch, KeyBERT, Sentence-Transformers  
-- **Interface utilisateur** : PySide6 (Qt)  
-- **Rapports** : FPDF pour l’export en PDF  
+## 🏗 Technologies Used  
+- **Python**: Pandas, NumPy, Matplotlib, Seaborn, WordCloud, scikit-learn  
+- **NLP**: Transformers (Hugging Face), Torch, KeyBERT, Sentence-Transformers  
+- **GUI**: PySide6 (Qt)  
+- **Reports**: FPDF for PDF export  
 
 ---
 
 ## 🚀 Installation  
 
-1. **Cloner le dépôt**  
+1. **Clone the repository**  
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 ```
 
-2. **Créer un environnement virtuel (recommandé)**  
+2. **Create a virtual environment (recommended)**  
 ```bash
 python -m venv venv
-source venv/bin/activate   # Linux/Mac
-venv\Scripts\activate      # Windows
+source venv/bin/activate   # on Linux/Mac
+venv\Scripts\activate      # on Windows
 ```
 
-3. **Installer les dépendances**  
+3. **Install dependencies**  
 ```bash
 pip install -r requirements.txt
 ```
 
-4. **Lancer l’application**  
+4. **Run the application**  
 ```bash
 python main.py
 ```
 
 ---
 
-## 📂 Structure du projet  
+## 📂 Project Structure  
 
 ```
-├── main.py              # Point d’entrée de l’application (GUI PySide6)
-├── requirements.txt     # Dépendances Python
-├── README.md            # Documentation du projet
-├── /data                # (Optionnel) Fichiers textes d’entrée
-├── /reports             # Rapports PDF générés
-├── /visuals             # Graphiques et nuages de mots
-└── /assets              # (Optionnel) ressources diverses
+├── main.py              # Entry point of the application (PySide6 GUI)
+├── requirements.txt     # Python dependencies
+├── README.md            # Project documentation
+├── /data                # (Optional) input text files
+├── /reports             # Generated PDF reports
+├── /visuals             # Graphs and word clouds
+└── /assets              # Assets (icons, resources, etc.)
 ```
 
 ---
 
-## 📜 Licence  
-Ce projet est sous licence **MIT** – voir le fichier [LICENSE](LICENSE) pour plus de détails.  
-
-## 👥 Contributeurs
-- [Silentdawg](https://github.com/Silentdawg)
-- [LulDrako](https://github.com/LulDrako)
+## 📜 License  
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.  
